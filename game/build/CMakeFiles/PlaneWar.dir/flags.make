@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/include -I/Users/huangding/Documents/web-ai/1074/game/src -I/Users/huangding/Documents/web-ai/1074/game/src/config -I/Users/huangding/Documents/web-ai/1074/game/src/core -I/Users/huangding/Documents/web-ai/1074/game/src/entities -I/Users/huangding/Documents/web-ai/1074/game/src/ui -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers
+CXX_INCLUDES = -I/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/include -I/Users/huangding/Documents/GSB/1074/game/src -I/Users/huangding/Documents/GSB/1074/game/src/config -I/Users/huangding/Documents/GSB/1074/game/src/core -I/Users/huangding/Documents/GSB/1074/game/src/entities -I/Users/huangding/Documents/GSB/1074/game/src/ui -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++17 -arch arm64
 

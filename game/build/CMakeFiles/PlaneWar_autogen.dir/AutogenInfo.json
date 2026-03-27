@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/huangding/Documents/web-ai/1074/game/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/huangding/Documents/web-ai/1074/game/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/huangding/Documents/web-ai/1074/game",
+	"BUILD_DIR" : "/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/huangding/Documents/GSB/1074/game/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/huangding/Documents/GSB/1074/game/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/huangding/Documents/GSB/1074/game",
 	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/huangding/Documents/web-ai/1074/game/CMakeLists.txt",
+		"/Users/huangding/Documents/GSB/1074/game/CMakeLists.txt",
 		"/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in",
-		"/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/4.2.3/CMakeSystem.cmake",
+		"/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/4.2.3/CMakeSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
@@ -64,7 +64,7 @@
 		"/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake",
+		"/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -93,7 +93,7 @@
 		"/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake",
+		"/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake",
@@ -431,106 +431,106 @@
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/huangding/Documents/web-ai/1074/game",
+	"CMAKE_SOURCE_DIR" : "/Users/huangding/Documents/GSB/1074/game",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/deps",
+	"DEP_FILE" : "/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "PlaneWar_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/config/GameConfig.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/config/GameConfig.h",
 			"MU",
 			"6DQYUKT47J/moc_GameConfig.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.h",
 			"MU",
 			"PRMOGMWJPH/moc_AnimationManager.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/GameObject.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/GameObject.h",
 			"MU",
 			"PRMOGMWJPH/moc_GameObject.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/GameScene.h",
 			"MU",
 			"PRMOGMWJPH/moc_GameScene.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.h",
 			"MU",
 			"PRMOGMWJPH/moc_GameWindow.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/Logger.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/Logger.h",
 			"MU",
 			"PRMOGMWJPH/moc_Logger.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.h",
 			"MU",
 			"IEUNVJTDNW/moc_Bullet.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.h",
 			"MU",
 			"IEUNVJTDNW/moc_Enemy.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.h",
 			"MU",
 			"IEUNVJTDNW/moc_Explosion.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Player.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Player.h",
 			"MU",
 			"IEUNVJTDNW/moc_Player.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.h",
 			"MU",
 			"IEUNVJTDNW/moc_PowerUp.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.h",
 			"MU",
 			"YPKJ5OE7LN/moc_GameHUD.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.h",
 			"MU",
 			"YPKJ5OE7LN/moc_GameOverScreen.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.h",
 			"MU",
 			"YPKJ5OE7LN/moc_PauseScreen.cpp",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.h",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.h",
 			"MU",
 			"YPKJ5OE7LN/moc_StartScreen.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -541,22 +541,23 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/huangding/Documents/web-ai/1074/game/src",
-		"/Users/huangding/Documents/web-ai/1074/game/src/config",
-		"/Users/huangding/Documents/web-ai/1074/game/src/core",
-		"/Users/huangding/Documents/web-ai/1074/game/src/entities",
-		"/Users/huangding/Documents/web-ai/1074/game/src/ui",
+		"/Users/huangding/Documents/GSB/1074/game/src",
+		"/Users/huangding/Documents/GSB/1074/game/src/config",
+		"/Users/huangding/Documents/GSB/1074/game/src/core",
+		"/Users/huangding/Documents/GSB/1074/game/src/entities",
+		"/Users/huangding/Documents/GSB/1074/game/src/ui",
 		"/opt/homebrew/opt/qt/lib/QtCore.framework/Headers",
 		"/opt/homebrew/opt/qt/lib/QtCore.framework",
 		"/opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang",
 		"/opt/homebrew/opt/qt/include",
 		"/opt/homebrew/opt/qt/lib/QtGui.framework/Headers",
 		"/opt/homebrew/opt/qt/lib/QtGui.framework",
+		"/opt/homebrew/include",
 		"/opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers",
 		"/opt/homebrew/opt/qt/lib/QtWidgets.framework",
 		"/usr/local/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",
-		"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/21/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/usr/include"
 	],
@@ -580,82 +581,82 @@
 		"-E",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/opt/qt/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/homebrew/opt/qt/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/huangding/Documents/web-ai/1074/game/main.cpp", "MU", null ],
+		[ "/Users/huangding/Documents/GSB/1074/game/main.cpp", "MU", null ],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/GameScene.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/core/Logger.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/core/Logger.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/Player.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/Player.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.cpp",
+			"/Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.cpp",
 			"MU",
 			null
 		]

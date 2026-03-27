@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/huangding/Documents/web-ai/1074/game
+CMAKE_SOURCE_DIR = /Users/huangding/Documents/GSB/1074/game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/huangding/Documents/web-ai/1074/game/build
+CMAKE_BINARY_DIR = /Users/huangding/Documents/GSB/1074/game/build
 
 # Utility rule file for PlaneWar_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/PlaneWar_autogen: PlaneWar_autogen/timestamp
 PlaneWar_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/moc
 PlaneWar_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/uic
 PlaneWar_autogen/timestamp: CMakeFiles/PlaneWar_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PlaneWar"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenInfo.json Release
-	/opt/homebrew/bin/cmake -E touch /Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PlaneWar"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenInfo.json Release
+	/opt/homebrew/bin/cmake -E touch /Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/timestamp
 
 CMakeFiles/PlaneWar_autogen.dir/codegen:
 .PHONY : CMakeFiles/PlaneWar_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/PlaneWar_autogen.dir/clean:
 .PHONY : CMakeFiles/PlaneWar_autogen.dir/clean
 
 CMakeFiles/PlaneWar_autogen.dir/depend:
-	cd /Users/huangding/Documents/web-ai/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar_autogen
+	cd /Users/huangding/Documents/GSB/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar_autogen
 .PHONY : CMakeFiles/PlaneWar_autogen.dir/depend
 

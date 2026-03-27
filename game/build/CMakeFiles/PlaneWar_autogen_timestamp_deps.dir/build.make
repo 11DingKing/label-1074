@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/huangding/Documents/web-ai/1074/game
+CMAKE_SOURCE_DIR = /Users/huangding/Documents/GSB/1074/game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/huangding/Documents/web-ai/1074/game/build
+CMAKE_BINARY_DIR = /Users/huangding/Documents/GSB/1074/game/build
 
 # Utility rule file for PlaneWar_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/depend:
-	cd /Users/huangding/Documents/web-ai/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar_autogen_timestamp_deps
+	cd /Users/huangding/Documents/GSB/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar_autogen_timestamp_deps
 .PHONY : CMakeFiles/PlaneWar_autogen_timestamp_deps.dir/depend
 
