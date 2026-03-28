@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/huangding/Documents/web-ai/1074/game/CMakeLists.txt"
-  "/Users/huangding/Documents/web-ai/1074/game/Info.plist.in"
+  "/Users/huangding/Documents/GSB/1074/game/CMakeLists.txt"
+  "/Users/huangding/Documents/GSB/1074/game/Info.plist.in"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
   "/opt/homebrew/lib/cmake/Qt6/FindWrapAtomic.cmake"

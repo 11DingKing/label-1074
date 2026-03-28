@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/huangding/Documents/web-ai/1074/game
+CMAKE_SOURCE_DIR = /Users/huangding/Documents/GSB/1074/game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/huangding/Documents/web-ai/1074/game/build
+CMAKE_BINARY_DIR = /Users/huangding/Documents/GSB/1074/game/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PlaneWar.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/PlaneWar.dir/flags.make
 PlaneWar_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/moc
 PlaneWar_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/uic
 PlaneWar_autogen/timestamp: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PlaneWar"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenInfo.json Release
-	/opt/homebrew/bin/cmake -E touch /Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PlaneWar"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar_autogen.dir/AutogenInfo.json Release
+	/opt/homebrew/bin/cmake -E touch /Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/timestamp
 
 CMakeFiles/PlaneWar.dir/codegen:
 .PHONY : CMakeFiles/PlaneWar.dir/codegen
@@ -82,212 +82,212 @@ CMakeFiles/PlaneWar.dir/codegen:
 CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
 CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o: PlaneWar_autogen/mocs_compilation.cpp
 CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.o -c /Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp
 
 CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp > CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp > CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp -o CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/build/PlaneWar_autogen/mocs_compilation.cpp -o CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/PlaneWar.dir/main.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/main.cpp.o: /Users/huangding/Documents/web-ai/1074/game/main.cpp
+CMakeFiles/PlaneWar.dir/main.cpp.o: /Users/huangding/Documents/GSB/1074/game/main.cpp
 CMakeFiles/PlaneWar.dir/main.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PlaneWar.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/main.cpp.o -MF CMakeFiles/PlaneWar.dir/main.cpp.o.d -o CMakeFiles/PlaneWar.dir/main.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PlaneWar.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/main.cpp.o -MF CMakeFiles/PlaneWar.dir/main.cpp.o.d -o CMakeFiles/PlaneWar.dir/main.cpp.o -c /Users/huangding/Documents/GSB/1074/game/main.cpp
 
 CMakeFiles/PlaneWar.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/main.cpp > CMakeFiles/PlaneWar.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/main.cpp > CMakeFiles/PlaneWar.dir/main.cpp.i
 
 CMakeFiles/PlaneWar.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/main.cpp -o CMakeFiles/PlaneWar.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/main.cpp -o CMakeFiles/PlaneWar.dir/main.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.cpp
+CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.cpp
 CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.cpp
 
 CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.cpp > CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.cpp > CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/core/GameWindow.cpp -o CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/core/GameWindow.cpp -o CMakeFiles/PlaneWar.dir/src/core/GameWindow.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.cpp
+CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/core/GameScene.cpp
 CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/core/GameScene.cpp
 
 CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.cpp > CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/core/GameScene.cpp > CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/core/GameScene.cpp -o CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/core/GameScene.cpp -o CMakeFiles/PlaneWar.dir/src/core/GameScene.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.cpp
+CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.cpp
 CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.cpp
 
 CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.cpp > CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.cpp > CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/core/AnimationManager.cpp -o CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/core/AnimationManager.cpp -o CMakeFiles/PlaneWar.dir/src/core/AnimationManager.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/core/Logger.cpp
+CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/core/Logger.cpp
 CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/core/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o -MF CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/core/Logger.cpp
 
 CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/core/Logger.cpp > CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/core/Logger.cpp > CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/core/Logger.cpp -o CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/core/Logger.cpp -o CMakeFiles/PlaneWar.dir/src/core/Logger.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/entities/Player.cpp
+CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/entities/Player.cpp
 CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/entities/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/entities/Player.cpp
 
 CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/entities/Player.cpp > CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/entities/Player.cpp > CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/entities/Player.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/entities/Player.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Player.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.cpp
+CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.cpp
 CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.cpp
 
 CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.cpp > CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.cpp > CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/entities/Enemy.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/entities/Enemy.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Enemy.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.cpp
+CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.cpp
 CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.cpp
 
 CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.cpp > CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.cpp > CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/entities/Bullet.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/entities/Bullet.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Bullet.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.cpp
+CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.cpp
 CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.cpp
 
 CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.cpp > CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.cpp > CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/entities/Explosion.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/entities/Explosion.cpp -o CMakeFiles/PlaneWar.dir/src/entities/Explosion.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.cpp
+CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.cpp
 CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o -MF CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.cpp
 
 CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.cpp > CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.cpp > CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/entities/PowerUp.cpp -o CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/entities/PowerUp.cpp -o CMakeFiles/PlaneWar.dir/src/entities/PowerUp.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.cpp
+CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.cpp
 CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.cpp
 
 CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/ui/StartScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/ui/StartScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/StartScreen.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.cpp
+CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.cpp
 CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.cpp
 
 CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.cpp > CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.cpp > CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/ui/GameHUD.cpp -o CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/ui/GameHUD.cpp -o CMakeFiles/PlaneWar.dir/src/ui/GameHUD.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.cpp
+CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.cpp
 CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.cpp
 
 CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/ui/PauseScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/ui/PauseScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/PauseScreen.cpp.s
 
 CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o: CMakeFiles/PlaneWar.dir/flags.make
-CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o: /Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.cpp
+CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o: /Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.cpp
 CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o: CMakeFiles/PlaneWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o -c /Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o -MF CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o.d -o CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.o -c /Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.cpp
 
 CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.cpp > CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.i
 
 CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/web-ai/1074/game/src/ui/GameOverScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangding/Documents/GSB/1074/game/src/ui/GameOverScreen.cpp -o CMakeFiles/PlaneWar.dir/src/ui/GameOverScreen.cpp.s
 
 # Object files for target PlaneWar
 PlaneWar_OBJECTS = \
@@ -330,7 +330,7 @@ bin/PlaneWar.app/Contents/MacOS/PlaneWar: /opt/homebrew/opt/qt/lib/QtWidgets.fra
 bin/PlaneWar.app/Contents/MacOS/PlaneWar: /opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui
 bin/PlaneWar.app/Contents/MacOS/PlaneWar: /opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore
 bin/PlaneWar.app/Contents/MacOS/PlaneWar: CMakeFiles/PlaneWar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable bin/PlaneWar.app/Contents/MacOS/PlaneWar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/huangding/Documents/GSB/1074/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable bin/PlaneWar.app/Contents/MacOS/PlaneWar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PlaneWar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -342,6 +342,6 @@ CMakeFiles/PlaneWar.dir/clean:
 .PHONY : CMakeFiles/PlaneWar.dir/clean
 
 CMakeFiles/PlaneWar.dir/depend: PlaneWar_autogen/timestamp
-	cd /Users/huangding/Documents/web-ai/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build /Users/huangding/Documents/web-ai/1074/game/build/CMakeFiles/PlaneWar.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar
+	cd /Users/huangding/Documents/GSB/1074/game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build /Users/huangding/Documents/GSB/1074/game/build/CMakeFiles/PlaneWar.dir/DependInfo.cmake "--color=$(COLOR)" PlaneWar
 .PHONY : CMakeFiles/PlaneWar.dir/depend
 
